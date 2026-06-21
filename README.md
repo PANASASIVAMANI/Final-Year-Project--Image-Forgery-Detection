@@ -40,20 +40,13 @@ The system is built using a modern, decoupled architecture:
 *   Python (v3.8+)
 *   Supabase Account (Free tier works)
 
-### 2. Environment Configuration
-Create a `.env` file in the **project root** AND in the **backend** directory:
-```env
-SUPABASE_URL=your_supabase_url_here
-SUPABASE_ANON_KEY=your_supabase_anon_key_here
-```
-
-### 3. Frontend Setup
+### 2. Frontend Setup
 Navigate to the frontend directory and install dependencies:
 ```bash
 npm install
 ```
 
-### 4. Backend Setup
+### 3. Backend Setup
 Navigate to the backend directory and install Python dependencies:
 ```bash
 cd backend
@@ -76,9 +69,6 @@ cd backend
 python app.py
 # The API will run on http://localhost:5000/api
 ```
-
-## 📸 Screenshots
-*(Add screenshots of your web application here - e.g., the dashboard, upload screen, ELA heatmap, and the final PDF report)*
 
 ## ⚠️ Security & Limitations
 *   Supported formats: `JPG`, `JPEG`, `PNG`.
