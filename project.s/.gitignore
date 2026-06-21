@@ -21,3 +21,8 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# Ignore generated data, CSVs, and backup files
+*.csv
+*.bak
+project.s/Image-Forgery-Detection-CNN-master/data/output/
