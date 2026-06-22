@@ -5,6 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-Backend-black.svg?logo=flask)
 ![PyTorch](https://img.shields.io/badge/PyTorch-CNN-EE4C2C.svg?logo=pytorch)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8.svg?logo=opencv)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 > **A comprehensive, production-ready image forgery detection system built for advanced computer vision analysis, cryptographic hashing, and forensic metadata extraction.**
@@ -43,6 +44,7 @@ The system is built using a modern, decoupled architecture:
 
 *   **Frontend (`project.s/`):** React.js with TypeScript and Tailwind CSS, bundled with Vite for a blazing-fast, responsive user interface.
 *   **Backend (`project.s/Image-Forgery-Detection-CNN-master/`):** Python Flask RESTful API handling heavy lifting, computer vision processing, model inference, and report generation.
+*   **Computer Vision (OpenCV):** Used extensively for image preprocessing, loading images (`cv2.imread`), color space conversions (`cv2.cvtColor`), and computing image differences and median blurs to generate ground truth masks for forgery regions during the data preparation phase.
 *   **Database:** Supabase (PostgreSQL) integration for storing analysis results, historical data, and metadata tracking.
 
 ## 🚀 Setup & Installation
